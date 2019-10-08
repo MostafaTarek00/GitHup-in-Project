@@ -30,12 +30,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="JCE-tg-Oqh">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="eE0-UF-kdm" firstAttribute="top" secondItem="U8S-0a-Eha" secondAttribute="bottom" constant="20" id="BQ5-KK-1HR"/>
+                            <constraint firstItem="JCE-tg-Oqh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HzI-F4-RJb"/>
                             <constraint firstItem="U8S-0a-Eha" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="IaF-4D-9jy"/>
                             <constraint firstItem="U8S-0a-Eha" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kaI-Kl-od1"/>
+                            <constraint firstItem="JCE-tg-Oqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lgA-ut-hDM"/>
                             <constraint firstItem="eE0-UF-kdm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lu2-3E-Tot"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,4 +51,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dice1" width="100" height="100"/>
+    </resources>
 </document>
